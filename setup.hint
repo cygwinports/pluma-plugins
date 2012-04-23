@@ -1,0 +1,4 @@
+category: MATE Editors
+requires: libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libgtksourceview2.0_0 libgucharmap7 libmateconf2_4 libpango1.0_0 mate-conf mate-text-editor python python-cairo python-dbus python-gobject python-gtk2.0 python-mateconf python-vte
+sdesc: "Additional plugins for Pluma, the MATE text editor"
+ldesc: "Additional plugins for Pluma, the MATE text editor"

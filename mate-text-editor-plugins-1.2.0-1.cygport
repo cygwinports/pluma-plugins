@@ -1,0 +1,15 @@
+inherit mate
+
+
+SRC_URI="${P}.tar.xz"
+
+DEPEND="mate-common
+	pkgconfig(gtksourceview-2.0)
+	pkgconfig(gucharmap-2)
+	pkgconfig(mateconf-2.0)
+	pkgconfig(pluma)
+	pkgconfig(dbus-python)
+	pkgconfig(pygtk-2.0)
+	pkgconfig(pygtksourceview-2.0)
+	pkgconfig(pyvte)
+	python"
