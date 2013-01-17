@@ -1,6 +1,11 @@
-inherit mate
+inherit mate python
 
-
+NAME="mate-text-editor-plugins"
+VERSION=1.2.0
+RELEASE=2
+CATEGORY="MATE Editors"
+SUMMARY="Additional plugins for Pluma, the MATE text editor"
+DESCRIPTION="Additional plugins for Pluma, the MATE text editor"
 SRC_URI="${P}.tar.xz"
 
 DEPEND="mate-common
