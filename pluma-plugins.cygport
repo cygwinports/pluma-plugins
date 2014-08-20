@@ -1,21 +1,22 @@
-GIT_URI="https://github.com/cygwinports/mate-text-editor-plugins.git"
-GIT_TAG=${PV}
-inherit mate python git
+inherit mate python
 
-NAME="mate-text-editor-plugins"
-VERSION=1.4.0
+NAME="pluma-plugins"
+VERSION=1.8.0
 RELEASE=1
 CATEGORY="MATE Editors"
 SUMMARY="Additional plugins for Pluma, the MATE text editor"
 DESCRIPTION="Additional plugins for Pluma, the MATE text editor"
+HOMEPAGE="https://github.com/cygwinports/pluma-plugins"
+SRC_URI="https://github.com/cygwinports/pluma-plugins/archive/${VERSION}/${NAME}-${VERSION}.tar.gz"
 
 DEPEND="mate-common
 	pkgconfig(gtksourceview-2.0)
-	pkgconfig(mucharmap-2)
-	pkgconfig(mateconf-2.0)
+	pkgconfig(gucharmap-2)
 	pkgconfig(pluma)
 	pkgconfig(dbus-python)
 	pkgconfig(pygtk-2.0)
 	pkgconfig(pygtksourceview-2.0)
 	pkgconfig(pyvte)
 	python"
+
+OBSOLETES="mate-text-editor-plugins"
